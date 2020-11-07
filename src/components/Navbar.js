@@ -64,12 +64,12 @@ function Navbar() {
                     <li className="nav-item">
                         <Link to="/log-in" className="nav-links-mobile"
                             onClick={closeMobileMenu}>
-                            Login
+                            Log In
                         </Link>
                     </li>
                 </ul>
                 {
-                button && <Button buttonStyle="btn--outline">LOG IN</Button>
+                button && <Button buttonStyle="btn--outline">LOGIN</Button>
             }
                 {" "} </div>
         </nav>
